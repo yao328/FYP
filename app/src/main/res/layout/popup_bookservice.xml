@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Select a service"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:ignore="HardcodedText" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/textView16"
+        android:layout_marginTop="0dp"
+        android:background="@color/black" />
+
+    <ListView
+        android:id="@+id/lv_selectservicelist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/view7"
+        android:layout_below="@id/view4"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="10dp"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:listSelector="@drawable/border"
+        android:padding="10dp"
+        android:scrollbarStyle="outsideInset" />
+
+    <View
+        android:id="@+id/view7"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/btn_confirmService"
+        android:layout_marginBottom="10dp"
+        android:background="@color/black" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_confirmService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/buttonbackgroundfalse"
+        android:enabled="false"
+        android:text="OK"
+        android:textColor="@color/black" />
+
+</RelativeLayout>

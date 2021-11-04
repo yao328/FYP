@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.profile.ProfileFragment">
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_editProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/transparentbackground"
+        android:clickable="true"
+        android:drawablePadding="5dp"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="Edit Profile"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:drawableEndCompat="@drawable/ic_arrowright"
+        app:drawableStartCompat="@drawable/ic_profile"
+        tools:ignore="HardcodedText" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_changePassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/transparentbackground"
+        android:clickable="true"
+        android:drawablePadding="5dp"
+        android:gravity="center_vertical"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:text="Change Password"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:drawableEndCompat="@drawable/ic_arrowright"
+        app:drawableStartCompat="@drawable/ic_password"
+        tools:ignore="HardcodedText" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_signout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/transparentbackground"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:padding="15dp"
+        android:text="Sign Out"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#FF0000"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>

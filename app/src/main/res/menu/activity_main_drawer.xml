@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_favshop"
+            android:icon="@drawable/ic_favblack"
+            android:title="Favourite Shop" />
+        <item
+            android:id="@+id/nav_registerbusiness"
+            android:icon="@drawable/ic_shop"
+            android:title="Register your business" />
+        <item
+            android:id="@+id/nav_businessappointment"
+            android:icon="@drawable/ic_appointment"
+            android:title="Business Appointment" />
+        <item
+            android:id="@+id/nav_appointment"
+            android:icon="@drawable/ic_appointment"
+            android:title="Appointment" />
+        <item
+            android:id="@+id/nav_stafflist"
+            android:icon="@drawable/ic_work"
+            android:title="Staff List" />
+        <item
+            android:id="@+id/nav_editbusiness"
+            android:icon="@drawable/ic_shop"
+            android:title="Edit your shop" />
+        <item
+            android:id="@+id/nav_businessreport"
+            android:icon="@drawable/ic_report"
+            android:title="Business report" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Profile" />
+    </group>
+</menu>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.fyp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_favshop"
+        android:name="com.example.fyp.ui.favshoplist.FavshopFragment"
+        android:label="Favourite Shop"
+        tools:layout="@layout/fragment_favshop" />
+
+    <fragment
+        android:id="@+id/nav_stafflist"
+        android:name="com.example.fyp.ui.stafflist.StaffListFragment"
+        android:label="Staff List"
+        tools:layout="@layout/fragment_staff_list" />
+
+    <fragment
+        android:id="@+id/nav_businessappointment"
+        android:name="com.example.fyp.ui.businessappointment.AppointmentFragment"
+        android:label="Business Appointment"
+        tools:layout="@layout/fragment_appointment" />
+
+    <fragment
+        android:id="@+id/nav_appointment"
+        android:name="com.example.fyp.ui.appointment.AppointmentFragment"
+        android:label="Appointment"
+        tools:layout="@layout/fragment_appointment" />
+
+    <fragment
+        android:id="@+id/nav_registerbusiness"
+        android:name="com.example.fyp.ui.registerbusiness.RegisterBusinessFragment"
+        android:label="Register your business"
+        tools:layout="@layout/fragment_register_business" />
+
+    <fragment
+        android:id="@+id/nav_editbusiness"
+        android:name="com.example.fyp.ui.editbusiness.EditBusinessFragment"
+        android:label="Edit your shop"
+        tools:layout="@layout/fragment_edit_business" />
+
+    <fragment
+        android:id="@+id/nav_businessreport"
+        android:name="com.example.fyp.ui.businessreport.MainFragment"
+        android:label="Business Report"
+        tools:layout="@layout/fragment_main" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.fyp.ui.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>
